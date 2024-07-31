@@ -22,7 +22,6 @@
 .header-container{
     max-width: 1440px;
     min-height: 715px;
-    border: 2px solid pink;
     background: linear-gradient(to bottom, #111111, #333333);
     margin: 0 auto;
 }
@@ -192,7 +191,6 @@
     min-height: 452px;
     margin: 0 auto;
     margin-top: 100px;
-    border: 2px solid darksalmon;
     color: white;
 }
 
@@ -224,7 +222,6 @@
 }
 
 .single-images{
-    border: 1px solid palegreen;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -260,7 +257,6 @@
     align-items: center;
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    border: 1px solid paleturquoise;
     gap: 165px;
     margin-top: 90px;
     margin-bottom: 100px;
@@ -323,7 +319,6 @@
 }
 
 .bmi-text-container{
-    border: 2px solid red;
     margin: 0 auto;
     width: 610px;
     margin-bottom: 88px;
@@ -333,7 +328,6 @@
 /* BMI Table */
 
 .bmi-container{
-    border: 2px solid yellow;
     justify-content: center;
     align-items: center;
     max-width: 1440px;
