@@ -21,7 +21,7 @@
 /* header section */
 .header-container{
     max-width: 1440px;
-    background: linear-gradient(to bottom, #111111, #333333);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     margin: 0 auto;
 }
 
@@ -603,14 +603,18 @@ footer{
     }
 
     .banner-card-1{
+        width: 111.91px;
+        height: 43.09px;
         top: 350px;
-        right: 30px;
+        left: 190px;
         padding: 13px 17px 11px 18px;
     }
 
     .banner-card-2{
-        top: 585px;
-        right: 180px;
+        width: 155.74px;
+        height: 72.58px;
+        top: 580px;
+        left: 20px;
         padding: 15px 17px 14px 17px;
     }
 
