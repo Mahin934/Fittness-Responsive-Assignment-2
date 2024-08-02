@@ -21,7 +21,6 @@
 /* header section */
 .header-container{
     max-width: 1440px;
-    min-height: 715px;
     background: linear-gradient(to bottom, #111111, #333333);
     margin: 0 auto;
 }
@@ -35,7 +34,6 @@
     color: rgb(255, 255, 255);
     font-size: 1.125rem;
     font-weight: 600;
-    margin-right: 47px;
 }
 
 .navigation-header> h3{
@@ -56,13 +54,19 @@
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
-    padding: 12px;
+    padding: 12px 0px 12px 0px;
+    gap: 47px;
+}
+
+#about-gap{
+    padding-right: 24px;
 }
 
 .home-tag{
     border-radius: 46px;
     background: rgb(230, 83, 60);
     padding: 8px 20px 8px 20px;
+    margin-left: 4px;
 }
 
 /* Banner Part */
@@ -669,6 +673,8 @@ footer{
         flex-direction: column;
         width: 100%;
         gap: 0px;
+        margin-bottom: 24px;
+        margin-top: 66px;
     }
     
     .running-heading{
@@ -708,6 +714,7 @@ footer{
 
     .bmi-text-container{
         width: 100%;
+        margin-bottom: 32px;
     }
 
     .bmi-text{
@@ -758,6 +765,7 @@ footer{
 
     .team-container{
         max-width: 353px;
+        margin-bottom: 66px;
     }
 
     .team-pera{
@@ -814,7 +822,8 @@ footer{
     }
 
     .resurved-pera>p{
-        padding: 0px 57px 57px 18px;
+        padding: 0px 0px 57px 0px;
+        text-align: left;
     }
 
     .footer-hr{
