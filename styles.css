@@ -733,8 +733,23 @@ footer{
     }
     
     input, select, .form-container{
-        padding: 12px 0px 12px 0px;
         width: 100%;
+    }
+
+    input{
+        width: 79px;
+        height: 22px;
+        padding: 13px 71px 13px 20px;
+    }
+
+    select{
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+
+    #activity{
+        padding-top: 14.4px;
+        padding-bottom: 14.4px;
     }
 
     .bmi-main-container{
