@@ -454,7 +454,6 @@ option{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-height: 604px;
-    width: 100%;
     padding: 20px;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
@@ -462,6 +461,10 @@ option{
     align-items: center;
     row-gap: 20px;
     column-gap: 20px;
+}
+
+.team-container{
+    width: 1060px;
 }
 
 .team-image{
@@ -492,6 +495,73 @@ option{
     font-size: 0.87;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+}
+
+/* Our courses */
+
+.course{
+    width: 1044px;
+    min-height: 452px;
+    margin: 0 auto;
+    margin-top: 88px;
+    margin-bottom: 88px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+}
+
+.course-heading{
+    margin-top: 30px;
+}
+
+.course-test-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-image-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: o auto;
+    padding: 20px 20px 30px 20px;
+    margin-top: 30px;
+}
+
+.course-single{
+    width: 100%;
+    height: 350px;
+    width: 220px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.course-single-images:hover{
+    transform: scale(1.1);
+}
+
+.course-single-images{
+    margin: 0 auto;
+    width: 220px;
+    text-align: center;
+    transition: transform 1.5s;
+}
+
+.course-image-heading{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.course-pera{
+    padding: 0px 190px 0px 190px;
+}
+
+.course-image-pera{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 
 /* Footer section */
@@ -672,6 +742,10 @@ footer{
         margin: 0px 53px 40px 53px;
     }
 
+    .habit-last-image{
+        margin-bottom: 0px;
+    }
+
     /* Running Mobile */
     .running{
         flex-direction: column;
@@ -813,6 +887,36 @@ footer{
 
     .team-mobile{
         padding: 0px 20px 0px 20px;
+    }
+
+    /* Our Course mobile */
+
+    .course{
+        width: 100%;
+        margin-top: 66px;
+        margin-bottom: 66px;
+    }
+    
+    .course-image-container{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0px 20px 20px 20px;
+        margin-top: 0px;
+    }
+
+    .course-single-images, .course-single{
+        width: 340px;
+    }
+
+    .course-single-images{
+        margin-top: 30px;
+    }
+
+    .course-test-container{
+        padding: 0px 20px 0px 20px;
+    }
+
+    .course-pera{
+        padding: 0px;
     }
 
     /* Footer Mobile */
