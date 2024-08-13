@@ -861,6 +861,13 @@ footer{
         margin-bottom: 66px;
     }
 
+    .willisam-dot{
+        width: 150px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
     .team-pera{
         margin: 0 auto;
         max-width: 309px;
@@ -951,6 +958,10 @@ footer{
 
     .footer-hr{
         margin: 72px 0px 41px 0px;
+    }
+
+    #get-margin{
+        margin-top: 20px;
     }
 
 }
