@@ -886,6 +886,10 @@ footer{
         margin: 34px 0px 43px 0px;
     }
 
+    .bmi-input-container{
+        width: 100%;
+    }
+
     /* Team Mobile */
 
     .team-container{
@@ -915,7 +919,6 @@ footer{
         grid-template-columns: 1fr;
         max-width: 313px;
         margin: 0 auto;
-        
         max-height: 1188px;
         
     }
