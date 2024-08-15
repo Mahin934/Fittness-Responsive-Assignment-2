@@ -23,7 +23,7 @@
 /* header section */
 .header-container{
     max-width: 1440px;
-    background: linear-gradient(to bottom, #111111, #333333);
+    background: linear-gradient(to top, #111111, #333333);
     margin: 0 auto;
 }
 
@@ -190,7 +190,7 @@
     margin-top: 8px;
 }
 
-.nav-bar{
+.navigation-header>i{
     display: none;
 }
 
@@ -651,7 +651,7 @@ footer{
         display: none;
     }
 
-    .nav-bar{
+    .navigation-header>i{
         display: block;
         color: white;
         font-size: 1.7rem;
