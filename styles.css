@@ -697,8 +697,17 @@ footer{
         width: 100%;
     }
 
-    .banner-btn-1, .banner-btn-2{
-        padding: 16px 16px;
+    .banner-btn-2{
+        padding: 16px;
+    }
+
+    .banner-btn-1{
+        padding: 16px 40px;
+    }
+
+
+    #club-mobile{
+        display: none;
     }
 
     .banner-card-1{
