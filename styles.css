@@ -23,7 +23,7 @@
 /* header section */
 .header-container{
     max-width: 1440px;
-    background: linear-gradient(to top, #111111, #333333);
+    background: linear-gradient(180deg,rgba(30, 30, 30, 0.747) 0%,rgb(30, 30, 30) 50%,rgba(1, 1, 1, 0.719) 100%);
     margin: 0 auto;
 }
 
