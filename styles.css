@@ -712,7 +712,7 @@ footer{
 
     .banner-card-1{
         width: 111.91px;
-        height: 43.09px;
+        height: 49.24px;
         top: 420px;
         left: 190px;
         padding: 13px 17px 11px 18px;
@@ -728,6 +728,8 @@ footer{
 
     .banner-card-1> h3 {
         font-size: 1.89rem;
+        height: 31px;
+        margin-bottom: 3px;
     }
 
     .banner-card-1> p{
